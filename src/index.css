@@ -1,0 +1,14 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans:
+    'Tajawal', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+}
