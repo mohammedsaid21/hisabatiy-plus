@@ -2,6 +2,7 @@ import type { ReactNode } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Footer } from './components/Footer';
 import { Navbar } from './components/Navbar';
+import { ConceptsPage } from './pages/ConceptsPage';
 import { LandingPage } from './pages/LandingPage';
 import { PrivacyPage } from './pages/PrivacyPage';
 
@@ -34,6 +35,14 @@ export default function App() {
           element={
             <Shell>
               <PrivacyPage />
+            </Shell>
+          }
+        />
+        <Route
+          path="/concepts"
+          element={
+            <Shell>
+              <ConceptsPage />
             </Shell>
           }
         />
