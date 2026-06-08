@@ -8,7 +8,7 @@ const channels = [
     title: 'واتساب',
     description: 'تواصل معنا مباشرة عبر واتساب للحصول على دعم سريع',
     action: 'تواصل الآن',
-    href: 'https://wa.me/966500000000',
+    href: 'https://wa.me/972595572743',
     color: 'from-green-500 to-emerald-600',
     bg: 'bg-green-50',
     border: 'border-green-200/80',
@@ -18,7 +18,7 @@ const channels = [
     title: 'البريد الإلكتروني',
     description: 'أرسل لنا استفسارك وسنرد عليك خلال 24 ساعة',
     action: 'أرسل إيميل',
-    href: 'mailto:support@hisabatiy.com',
+    href: 'mailto:support@sticky.onl',
     color: 'from-blue-500 to-indigo-600',
     bg: 'bg-blue-50',
     border: 'border-blue-200/80',
@@ -77,14 +77,14 @@ export function SupportSection() {
           ))}
         </div>
 
-        <Reveal delay={0.25}>
+        {/* <Reveal delay={0.25}>
           <div className="mt-12 rounded-2xl border border-teal-200/60 bg-gradient-to-l from-teal-50 to-cyan-50 p-8 text-center">
             <p className="text-base font-medium text-slate-700">
               ساعات العمل: <span className="font-bold text-teal-700">الأحد — الخميس</span> من 9 صباحاً حتى 9 مساءً
             </p>
             <p className="mt-1 text-sm text-slate-500">نرد على جميع الاستفسارات خلال ساعات العمل</p>
           </div>
-        </Reveal>
+        </Reveal> */}
       </div>
     </section>
   );
