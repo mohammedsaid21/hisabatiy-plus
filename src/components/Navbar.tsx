@@ -8,6 +8,7 @@ const sectionLinks = [
   { to: '/#features', label: 'الميزات' },
   { to: '/#how', label: 'كيف يعمل؟' },
   { to: '/#gallery', label: 'معاينة التطبيق' },
+  { to: '/#support', label: 'الدعم الفني' },
 ];
 
 const linkBase =
