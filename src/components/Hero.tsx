@@ -20,7 +20,7 @@ export function Hero() {
   const opacity = useTransform(scrollYProgress, [0, 0.5], [1, 0]);
 
   return (
-    <section ref={ref} className="relative min-h-screen overflow-hidden pt-20" dir="rtl">
+    <section ref={ref} className="relative min-h-screen overflow-hidden pt-5" dir="rtl">
       <div className="absolute inset-0 bg-gradient-to-b from-teal-50/60 via-white to-white" />
 
       <motion.div
@@ -36,7 +36,7 @@ export function Hero() {
 
       <div className="absolute inset-0 bg-[linear-gradient(rgba(0,128,128,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(0,128,128,0.03)_1px,transparent_1px)] bg-[size:60px_60px]" />
 
-      <motion.div style={{ y, opacity }} className="relative mx-auto max-w-6xl px-4 py-16 lg:px-8 lg:py-24">
+      <motion.div style={{ y, opacity }} className="relative mx-auto max-w-7xl py-16 px-4 lg:py-24">
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-8">
           {/* Content */}
           <motion.div

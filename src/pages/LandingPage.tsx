@@ -23,12 +23,13 @@ export function LandingPage() {
   return (
     <>
       <Hero />
-      <ProblemSolution />
-      <Features />
+    
       <HowItWorks />
       <AppShowcase />
       <FAQSection />
       <SupportSection />
+      <ProblemSolution />
+      <Features />
       <CTASection />
     </>
   );
